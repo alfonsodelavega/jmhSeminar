@@ -7,6 +7,6 @@ import org.openjdk.jmh.annotations.State;
 @State(Scope.Thread)
 public class ConcatStringsState {
 
-	@Param({ "1000", "2000", "5000", "10000" })
+	@Param({ "10", "100", "1000", "2000", "5000", "10000" })
 	int numChars;
 }
