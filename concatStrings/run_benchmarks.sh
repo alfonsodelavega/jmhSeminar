@@ -13,4 +13,4 @@
 # the "\." before emf diffmerge and emf compare prevents from running parallel tests for all benchmarks
 # "Peacemaker" also includes "ParallelPeacemaker" benchmarks
 
-java -jar target/benchmarks.jar -foe true -bm thrpt -tu ms -f 1 -i 5 -wi 2 -r 1 -w 1 -rf csv
+java -jar target/benchmarks.jar -foe true -bm thrpt -tu s -f 1 -i 5 -wi 2 -r 1 -w 1 -rf csv
